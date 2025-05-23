@@ -17,6 +17,11 @@ public:
   const boolean __OS_BIOS_RUNNING__; // is running?
   const wchar_t * __OS_BOOT_FILE__ = "Mangoz_OS.asm";
   void OS_CALL_BOOT_FILE(const wchar_t * __FILE__);
+
+  int OS_VERSION(int VERSION){
+    return VERSION;
+  }
+
 };
 
 #endif
